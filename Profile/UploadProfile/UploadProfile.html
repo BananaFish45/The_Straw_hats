@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+        crossorigin="anonymous">
+    </script>
+	<!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../profile.css">
+    <link rel="stylesheet" href="UploadProfile.css">
+    <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+         crossorigin="anonymous"
+    />
+    <title>Upload Profile</title>
+</head>
+<body>
+    <h2>Upload Profile</h2>
+    <div class="Form_Style">
+        <form id="formID">
+            <div class="mb-3">
+            <label for="text1" class="form-label">Name and Surname</label>
+            <input type="text" class="form-control" placeholder="Straw Hat" id="text1">
+            </div>
+
+            <div class="mb-3">
+            <label for="text2" class="form-label">Artwork Description</label>
+            <input type="text" class="form-control" placeholder="Artwork Description" id="text2">
+            </div>
+
+            <div class="mb-3">
+            <label for="text3" class="form-label">Art Price</label>
+            <input type="text" class="form-control" placeholder="10.00" id="text3">
+            </div>
+
+            <div class="mb-3">
+            <label for="text4" class="form-label">Tax Number</label>
+            <input type="text" class="form-control" placeholder="XXXXXXXXXXX" id="text4">
+            </div>
+
+            <div class="mb-3">
+            <label for="text5" class="form-label">Contact Details</label>
+            <input type="text" class="form-control" placeholder="Phone Number (Email)" id="text5">
+            </div>
+
+            <div class="mb-3">
+            <label for="text6" class="form-label">Your Picture URL</label>
+            <input type="text" class="form-control" placeholder="https://example.com/xxxx" id="text6">
+            </div>
+
+            <div class="mb-3">
+            <label for="text7" class="form-label">Your Art URL</label>
+            <input type="text" class="form-control" placeholder="https://example.com/xxxx" id="text7">
+            </div>
+
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I'm Not A Robot Checkout</label>
+            </div>
+            <input type="button" id="submit" onclick="submitData()" value="Upload Profile">
+        </form>
+        <script type="text/javascript">
+            function submitData() {
+
+                var Names = $('#text1').val();
+                var Artwork_Desc = $('#text2').val();
+                var Price = $('#text3').val();
+                var Tax_Number = $('#text4').val();
+                var Contact_Details = $('#text5').val();
+                var Owner_Image = $('#text6').val();
+                var Picture = $('#text7').val();
+
+                jsonObject={
+                    "Names":"",
+                    "Artwork_Desc":"",
+                    "Price":"",
+                    "Tax_Number":"",
+                    "Contact_Details":"",
+                    "Owner_Image":"",
+                    "Picture":""
+                }
+                jsonObject.Names = Names;
+                jsonObject.Artwork_Desc = Artwork_Desc;
+                jsonObject.Price = Price;
+                jsonObject.Tax_Number = Tax_Number
+                jsonObject.Contact_Details = Contact_Details;
+                jsonObject.Owner_Image = Owner_Image;
+                jsonObject.Picture = Picture;
+                
+                // var strObject = JSON.stringify(jsonObject);
+                // document.write(strObject);
+
+                // Javascript - Appending object to JSON File
+                // const fs = require("fs");
+                // let objectJSON = fs.readFileSync("../profile.json","utf-8");
+                // let Profile = JSON.parse(objectJSON);
+                // const arrObject = Array.from(Profile);
+                // arrObject.push(jsonObject);
+                // objectJSON = JSON.stringify(arrObject);
+                // fs.writeFileSync("../profile.json",objectJSON,"utf-8");
+            }
+        </script>
+    </div>
+</body>
+</html>

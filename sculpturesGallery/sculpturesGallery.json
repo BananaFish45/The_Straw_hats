@@ -1,0 +1,65 @@
+[
+    {
+        "Name":"Ceramic Art",
+        "Location":"Hatfield, Pretoria",
+        "Price":"89.50",
+        "Creator":"Paul Smith",
+        "Picture":"https://www.persiscollection.com/wp-content/uploads/2021/08/photo_2020-04-04_14-27-04.jpg"
+    },
+    {
+        "Name":"COPPER SMALL CANDY DISH",
+        "Location":"hilcrest, Pretoria",
+        "Price":"125.50",
+        "Creator":"Ghalam Zani",
+        "Picture":"https://www.persiscollection.com/wp-content/uploads/2021/08/GHALAMZANI-ON-COPPER-HAFT-SIN-SET-5-1.jpg"
+    },
+    {
+        "Name":"Jackson's Art",
+        "Location":"Acardia, Pretoria",
+        "Price":"240.00",
+        "Creator":"Jess Miller",
+        "Picture":"https://www.jacksonsart.com/blog/wp-content/uploads/2018/09/Jess-Miller-David-figure-3.jpg"
+    },
+    {
+        "Name":"Gold Rhino ",
+        "Location":"Mapungubwe, South Africa",
+        "Price":"2389.50",
+        "Creator":"Alexis Preller",
+        "Picture":"https://th.bing.com/th/id/R.ac0262334a3d811c933617aa82277d25?rik=HtUk%2fQxTM%2bAzNw&pid=ImgRaw&r=0&sres=1&sresct=1"
+    },
+    {
+        "Name":"Nkabi",
+        "Location":"Kwa-Zulu Natal",
+        "Price":"419.00",
+        "Creator":"Samkelo Khumalo",
+        "Picture":"https://th.bing.com/th/id/R.8b7431a869ef4814093313c128d28a0e?rik=4Hx0gTyZRhj2LA&pid=ImgRaw&r=0"
+    },
+    {
+        "Name":"Conte African",
+        "Location":"Kwa-Zulu Natal",
+        "Price":"157.00",
+        "Creator":"L'Assemblée des Fétiches",
+        "Picture":"https://idata.over-blog.com/3/89/20/20/Magie/P1060671.JPG"
+    },
+    {
+        "Name":"Queen Mati",
+        "Location":"Mpumalanga, South Africa",
+        "Price":"789.50",
+        "Creator":"Karma Ntuli",
+        "Picture":"https://th.bing.com/th/id/OIP.ME5H__v2lQiTYJiY7-Y7KwHaHa?pid=ImgDet&rs=1"
+    },
+    {
+        "Name":"Pots",
+        "Location":"Kwa-Zulu Natal",
+        "Price":"309.00",
+        "Creator":"Samkelo Khumalo",
+        "Picture":"https://th.bing.com/th/id/R.a6415e359cd574210c3829505dfd47c4?rik=ru9Uj34yNZrElQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+    },
+    {
+        "Name":"Hugh Masekela",
+        "Location":"Mpumalamga",
+        "Price":"157.00",
+        "Creator":"Monte Sekhalo",
+        "Picture":"https://s-media-cache-ak0.pinimg.com/564x/cf/30/43/cf30436c66e1d7f2c52fe0dcdb992eed.jpg"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "Names":"Yung Mercy",
+        "Artwork_Desc":"Bronze Animal Sculpture",
+        "Price":"569.00",
+        "Tax_Number":"454678766777",
+        "Contact_Details":"072 456 5678 (yungmercy@gmail.com)",
+        "Owner_Image":"https://static.wixstatic.com/media/447a19_7eeab7f0d7b143ab810e995020416fa8~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01/IMG_1887_JPG.jpg",
+        "Picture":"https://southafrica.co.za/images/leopard-1-786x523.jpg"
+    },
+    {
+        "Names":"Tendekayi Tigere",
+        "Artwork_Desc":"Event Organisor",
+        "Price":"289.50",
+        "Tax_Number":"889557575677",
+        "Contact_Details":"066 456 7856 (tendekayi@gmail.com)",
+        "Owner_Image":"https://thepositiveinfluenceleader.com/wp-content/uploads/2020/03/37750656_m-1080x675.jpg",
+        "Picture":"https://th.bing.com/th/id/R.830995ae7cf4f8932e48d782e9ad491f?rik=GxfIq90etOjiWA&pid=ImgRaw&r=0"
+    },
+    {
+        "Names":"Yung Mercy",
+        "Artwork_Desc":"Elephant Bull",
+        "Price":"620.00",
+        "Tax_Number":"454678766777",
+        "Contact_Details":"072 456 5678 (yungmercy@gmail.com)",
+        "Owner_Image":"https://static.wixstatic.com/media/447a19_7eeab7f0d7b143ab810e995020416fa8~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01/IMG_1887_JPG.jpg",
+        "Picture":"https://i.etsystatic.com/25535167/r/il/202bfb/2806913267/il_fullxfull.2806913267_iqup.jpg"
+    },
+    {
+        "Names":"Alec Cumming",
+        "Artwork_Desc":"Weddings Organiser",
+        "Price":"89.50",
+        "Tax_Number":"5776879999777",
+        "Contact_Details":"+27 82 567 8904 (alec@gmail.com)",
+        "Owner_Image":"https://th.bing.com/th/id/OIP.NVJDHnx00fc3VvKuQ4r5tAHaFj?pid=ImgDet&rs=1",
+        "Picture":"https://i.pinimg.com/originals/af/42/80/af4280f77ea03433f48b9e0596633535.jpg"
+    },
+    {
+        "Names":"KAUSHIK PATOWARY",
+        "Artwork_Desc":"I Paint Houses of The Ndebeles",
+        "Price":"2300.50",
+        "Tax_Number":"576879799999",
+        "Contact_Details":"+27 63 567 4954 (kaushik@gmail.com)",
+        "Owner_Image":"https://th.bing.com/th/id/OIP.Bzh05f0Zrh3riUB6N-UElgHaFb?pid=ImgDet&rs=1",
+        "Picture":"https://lh4.ggpht.com/-lnWEWttSzJc/VA_08ixmfEI/AAAAAAAA7H0/ZwZ3eLmQKCM/w1200-h630-p-k-no-nu/ndebele-house-painting-3%25255B6%25255D.jpg?imgmax=800"
+    },
+    {
+        "Names":"New World",
+        "Artwork_Desc":"I sell spears artwork",
+        "Price":"189.50 each",
+        "Tax_Number":"4465756687977",
+        "Contact_Details":"+27 56 568 9054 (newworld@gmail.com)",
+        "Owner_Image":"https://th.bing.com/th/id/OIP.a430Gb1ms8_EypISoh_ckAHaF7?pid=ImgDet&rs=1",
+        "Picture":"https://pbs.twimg.com/media/D2l63vxU8AAXwTI.jpg"
+    },
+    {
+        "Names":"Ntwampe Mastutu",
+        "Artwork_Desc":"I apply loation to samaru warriors",
+        "Price":"56.50 per person",
+        "Tax_Number":"46768798000",
+        "Contact_Details":"071 272 8054 (ntwampe@gmail.com)",
+        "Owner_Image":"https://i.pinimg.com/736x/1f/93/8f/1f938f6fe64eb0bc635aba3c6beafc2b.jpg",
+        "Picture":"https://cdn.24.co.za/files/Cms/General/d/900/79a4dff99145423c921d97a952341282.png"
+    },
+    {
+        "Names":"Cooking with Metjie",
+        "Artwork_Desc":"TRADITIONAL SPINASH RECIPE(MOROGO)",
+        "Price":"35.00 a plate",
+        "Tax_Number":"35456768797779",
+        "Contact_Details":"+27 74 567 7899 (metjie@gmail.com)",
+        "Owner_Image":"https://th.bing.com/th/id/OIP.IzZAmxQuQtZNAofFk_05wAHaE8?pid=ImgDet&rs=1",
+        "Picture":"https://www.internationalcuisine.com/wp-content/uploads/2016/05/Lesotho-pounded-meat-684x1024.jpg"
+    },
+    {
+        "Names":"Nkabi Khumalo",
+        "Artwork_Desc":"3 Piece Traditional Boys Zulu Wear",
+        "Price":"489.50",
+        "Tax_Number":"5778787888888",
+        "Contact_Details":"+27 62 333 8954 (khumalo@gmail.com)",
+        "Owner_Image":"https://media.istockphoto.com/photos/zulu-man-dressed-in-traditional-clothing-picture-id187202455?k=20&m=187202455&s=170667a&w=0&h=mIAbspW_22JBzEJNxBo_NOX2B61OhLlHB31htHv8TDc=",
+        "Picture":"https://media.takealot.com/covers_images/fd12f80a6b814bb9acfd99f2230abaef/s-zoom.file"
+    }
+]
