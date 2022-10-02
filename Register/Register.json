@@ -1,0 +1,14 @@
+{
+  "name": "uploadprofile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UploadProfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TebogoSello",
+  "license": "ISC",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
