@@ -21,6 +21,30 @@ http.onload = function(){
             </div>
 			`;
 		}
+        for(let k = 0; k<10;k++){
+            database.find({}, function(err, databaseOut) {
+                if(err) {
+                    console.log("Error: " + err.message);
+                }
+                else {
+                    console.log("Loading, Upload to the page!");
+                    output += `
+                    <div class="profile">
+                    <p class="title">${databaseOut[k].Names}</p>
+                    <p class="description">Artwork Description: ${databaseOut[k].Artwork_Desc}</p>
+                    <img src="${databaseOut[k].Owner_Image}" alt="${databaseOut[k].Names}">
+                    <p class="description"> </p>
+                    <img src="${databaseOut[k].Picture}" alt="${databaseOut[k].Artwork_Desc}">
+                    <p class="description"> </p>
+                    <p class="description">Price: R${databaseOut[k].Price}</p>
+                    <p class="description">Tax Number: ${databaseOut[k].Tax_Number}</p>
+                    <p class="description">Contact: ${databaseOut[k].Contact_Details}</p>
+                    <p class="cart">Contact Seller <i class="bx bx-cart-alt"></i></p>
+                    </div>
+                    `;
+                }
+            });
+        }
 		document.querySelector(".profiles").innerHTML = output;
 	}
 }
